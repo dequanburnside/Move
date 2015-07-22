@@ -1,6 +1,6 @@
 //
 //  CustomLogInViewController.swift
-//  REALSHIT
+//  MoveProject
 //
 //  Created by DeQuan Burnside on 7/22/15.
 //  Copyright (c) 2015 DeQuan Burnside. All rights reserved.
