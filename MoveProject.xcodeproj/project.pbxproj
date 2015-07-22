@@ -139,8 +139,8 @@
 		F7D629951B5D8FFC007C3457 = {
 			isa = PBXGroup;
 			children = (
-				F7D629A01B5D8FFC007C3457 /* REALSHIT */,
-				F7D629B61B5D8FFC007C3457 /* REALSHITTests */,
+				F7D629A01B5D8FFC007C3457 /* MoveProject */,
+				F7D629B61B5D8FFC007C3457 /* MoveProjectTests */,
 				F7D6299F1B5D8FFC007C3457 /* Products */,
 				F7668B6B1B5FE15300485C65 /* Frameworks */,
 			);
@@ -155,7 +155,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F7D629A01B5D8FFC007C3457 /* REALSHIT */ = {
+		F7D629A01B5D8FFC007C3457 /* MoveProject */ = {
 			isa = PBXGroup;
 			children = (
 				F7668B8C1B5FF84100485C65 /* CustomSignUpViewController.swift */,
@@ -167,7 +167,7 @@
 				F7D629AC1B5D8FFC007C3457 /* LaunchScreen.xib */,
 				F7D629A11B5D8FFC007C3457 /* Supporting Files */,
 			);
-			path = REALSHIT;
+			path = MoveProject;
 			sourceTree = "<group>";
 		};
 		F7D629A11B5D8FFC007C3457 /* Supporting Files */ = {
@@ -178,13 +178,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F7D629B61B5D8FFC007C3457 /* REALSHITTests */ = {
+		F7D629B61B5D8FFC007C3457 /* MoveProjectTests */ = {
 			isa = PBXGroup;
 			children = (
 				F7D629B91B5D8FFC007C3457 /* REALSHITTests.swift */,
 				F7D629B71B5D8FFC007C3457 /* Supporting Files */,
 			);
-			path = REALSHITTests;
+			path = MoveProjectTests;
 			sourceTree = "<group>";
 		};
 		F7D629B71B5D8FFC007C3457 /* Supporting Files */ = {
@@ -432,7 +432,7 @@
 					"$(PROJECT_DIR)/MoveProject/Frameworks",
 					"/Users/dequanburnside/Downloads/parse-library-1.7.5",
 				);
-				INFOPLIST_FILE = REALSHIT/Info.plist;
+				INFOPLIST_FILE = MoveProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = MoveProject;
 			};
@@ -447,7 +447,7 @@
 					"$(PROJECT_DIR)/MoveProject/Frameworks",
 					"/Users/dequanburnside/Downloads/parse-library-1.7.5",
 				);
-				INFOPLIST_FILE = REALSHIT/Info.plist;
+				INFOPLIST_FILE = MoveProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = MoveProject;
 			};
@@ -465,7 +465,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = REALSHITTests/Info.plist;
+				INFOPLIST_FILE = MoveProjectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = MoveProjectTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoveProject.app/MoveProject";
@@ -480,7 +480,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = REALSHITTests/Info.plist;
+				INFOPLIST_FILE = MoveProjectTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = MoveProjectTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoveProject.app/MoveProject";
