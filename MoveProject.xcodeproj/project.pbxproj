@@ -64,14 +64,14 @@
 		F7668B8C1B5FF84100485C65 /* CustomSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSignUpViewController.swift; sourceTree = "<group>"; };
 		F7668B8E1B60359200485C65 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../../Downloads/parse-library-1.7.5/Bolts.framework"; sourceTree = "<group>"; };
 		F7668B8F1B60359200485C65 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseCrashReporting.framework; path = "../../../../Downloads/parse-library-1.7.5/ParseCrashReporting.framework"; sourceTree = "<group>"; };
-		F7D6299E1B5D8FFC007C3457 /* REALSHIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = REALSHIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D6299E1B5D8FFC007C3457 /* MoveProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoveProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D629A21B5D8FFC007C3457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7D629A31B5D8FFC007C3457 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7D629A51B5D8FFC007C3457 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F7D629A81B5D8FFC007C3457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7D629AA1B5D8FFC007C3457 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F7D629AD1B5D8FFC007C3457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		F7D629B31B5D8FFC007C3457 /* REALSHITTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = REALSHITTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7D629B31B5D8FFC007C3457 /* MoveProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D629B81B5D8FFC007C3457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7D629B91B5D8FFC007C3457 /* REALSHITTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REALSHITTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -149,8 +149,8 @@
 		F7D6299F1B5D8FFC007C3457 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F7D6299E1B5D8FFC007C3457 /* REALSHIT.app */,
-				F7D629B31B5D8FFC007C3457 /* REALSHITTests.xctest */,
+				F7D6299E1B5D8FFC007C3457 /* MoveProject.app */,
+				F7D629B31B5D8FFC007C3457 /* MoveProjectTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -198,9 +198,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F7D6299D1B5D8FFC007C3457 /* REALSHIT */ = {
+		F7D6299D1B5D8FFC007C3457 /* MoveProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7D629BD1B5D8FFC007C3457 /* Build configuration list for PBXNativeTarget "REALSHIT" */;
+			buildConfigurationList = F7D629BD1B5D8FFC007C3457 /* Build configuration list for PBXNativeTarget "MoveProject" */;
 			buildPhases = (
 				F7D6299A1B5D8FFC007C3457 /* Sources */,
 				F7D6299B1B5D8FFC007C3457 /* Frameworks */,
@@ -210,14 +210,14 @@
 			);
 			dependencies = (
 			);
-			name = REALSHIT;
+			name = MoveProject;
 			productName = REALSHIT;
-			productReference = F7D6299E1B5D8FFC007C3457 /* REALSHIT.app */;
+			productReference = F7D6299E1B5D8FFC007C3457 /* MoveProject.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F7D629B21B5D8FFC007C3457 /* REALSHITTests */ = {
+		F7D629B21B5D8FFC007C3457 /* MoveProjectTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7D629C01B5D8FFC007C3457 /* Build configuration list for PBXNativeTarget "REALSHITTests" */;
+			buildConfigurationList = F7D629C01B5D8FFC007C3457 /* Build configuration list for PBXNativeTarget "MoveProjectTests" */;
 			buildPhases = (
 				F7D629AF1B5D8FFC007C3457 /* Sources */,
 				F7D629B01B5D8FFC007C3457 /* Frameworks */,
@@ -228,9 +228,9 @@
 			dependencies = (
 				F7D629B51B5D8FFC007C3457 /* PBXTargetDependency */,
 			);
-			name = REALSHITTests;
+			name = MoveProjectTests;
 			productName = REALSHITTests;
-			productReference = F7D629B31B5D8FFC007C3457 /* REALSHITTests.xctest */;
+			productReference = F7D629B31B5D8FFC007C3457 /* MoveProjectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -251,7 +251,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F7D629991B5D8FFC007C3457 /* Build configuration list for PBXProject "REALSHIT" */;
+			buildConfigurationList = F7D629991B5D8FFC007C3457 /* Build configuration list for PBXProject "MoveProject" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -264,8 +264,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F7D6299D1B5D8FFC007C3457 /* REALSHIT */,
-				F7D629B21B5D8FFC007C3457 /* REALSHITTests */,
+				F7D6299D1B5D8FFC007C3457 /* MoveProject */,
+				F7D629B21B5D8FFC007C3457 /* MoveProjectTests */,
 			);
 		};
 /* End PBXProject section */
@@ -315,7 +315,7 @@
 /* Begin PBXTargetDependency section */
 		F7D629B51B5D8FFC007C3457 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F7D6299D1B5D8FFC007C3457 /* REALSHIT */;
+			target = F7D6299D1B5D8FFC007C3457 /* MoveProject */;
 			targetProxy = F7D629B41B5D8FFC007C3457 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -429,12 +429,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/REALSHIT/Frameworks",
+					"$(PROJECT_DIR)/MoveProject/Frameworks",
 					"/Users/dequanburnside/Downloads/parse-library-1.7.5",
 				);
 				INFOPLIST_FILE = REALSHIT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MoveProject;
 			};
 			name = Debug;
 		};
@@ -444,12 +444,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/REALSHIT/Frameworks",
+					"$(PROJECT_DIR)/MoveProject/Frameworks",
 					"/Users/dequanburnside/Downloads/parse-library-1.7.5",
 				);
 				INFOPLIST_FILE = REALSHIT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MoveProject;
 			};
 			name = Release;
 		};
@@ -467,8 +467,8 @@
 				);
 				INFOPLIST_FILE = REALSHITTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/REALSHIT.app/REALSHIT";
+				PRODUCT_NAME = MoveProjectTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoveProject.app/MoveProject";
 			};
 			name = Debug;
 		};
@@ -482,15 +482,15 @@
 				);
 				INFOPLIST_FILE = REALSHITTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/REALSHIT.app/REALSHIT";
+				PRODUCT_NAME = MoveProjectTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoveProject.app/MoveProject";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F7D629991B5D8FFC007C3457 /* Build configuration list for PBXProject "REALSHIT" */ = {
+		F7D629991B5D8FFC007C3457 /* Build configuration list for PBXProject "MoveProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7D629BB1B5D8FFC007C3457 /* Debug */,
@@ -499,7 +499,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7D629BD1B5D8FFC007C3457 /* Build configuration list for PBXNativeTarget "REALSHIT" */ = {
+		F7D629BD1B5D8FFC007C3457 /* Build configuration list for PBXNativeTarget "MoveProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7D629BE1B5D8FFC007C3457 /* Debug */,
@@ -508,7 +508,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7D629C01B5D8FFC007C3457 /* Build configuration list for PBXNativeTarget "REALSHITTests" */ = {
+		F7D629C01B5D8FFC007C3457 /* Build configuration list for PBXNativeTarget "MoveProjectTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7D629C11B5D8FFC007C3457 /* Debug */,

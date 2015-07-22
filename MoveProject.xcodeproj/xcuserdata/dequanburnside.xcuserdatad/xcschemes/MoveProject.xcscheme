@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F7D6299D1B5D8FFC007C3457"
-               BuildableName = "REALSHIT.app"
-               BlueprintName = "REALSHIT"
-               ReferencedContainer = "container:REALSHIT.xcodeproj">
+               BuildableName = "MoveProject.app"
+               BlueprintName = "MoveProject"
+               ReferencedContainer = "container:MoveProject.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F7D629B21B5D8FFC007C3457"
-               BuildableName = "REALSHITTests.xctest"
-               BlueprintName = "REALSHITTests"
-               ReferencedContainer = "container:REALSHIT.xcodeproj">
+               BuildableName = "MoveProjectTests.xctest"
+               BlueprintName = "MoveProjectTests"
+               ReferencedContainer = "container:MoveProject.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F7D629B21B5D8FFC007C3457"
-               BuildableName = "REALSHITTests.xctest"
-               BlueprintName = "REALSHITTests"
-               ReferencedContainer = "container:REALSHIT.xcodeproj">
+               BuildableName = "MoveProjectTests.xctest"
+               BlueprintName = "MoveProjectTests"
+               ReferencedContainer = "container:MoveProject.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F7D6299D1B5D8FFC007C3457"
-            BuildableName = "REALSHIT.app"
-            BlueprintName = "REALSHIT"
-            ReferencedContainer = "container:REALSHIT.xcodeproj">
+            BuildableName = "MoveProject.app"
+            BlueprintName = "MoveProject"
+            ReferencedContainer = "container:MoveProject.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F7D6299D1B5D8FFC007C3457"
-            BuildableName = "REALSHIT.app"
-            BlueprintName = "REALSHIT"
-            ReferencedContainer = "container:REALSHIT.xcodeproj">
+            BuildableName = "MoveProject.app"
+            BlueprintName = "MoveProject"
+            ReferencedContainer = "container:MoveProject.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F7D6299D1B5D8FFC007C3457"
-            BuildableName = "REALSHIT.app"
-            BlueprintName = "REALSHIT"
-            ReferencedContainer = "container:REALSHIT.xcodeproj">
+            BuildableName = "MoveProject.app"
+            BlueprintName = "MoveProject"
+            ReferencedContainer = "container:MoveProject.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
