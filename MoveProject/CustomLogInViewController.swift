@@ -47,6 +47,11 @@ class CustomLogInViewController: UIViewController {
     // MARK: Actions
     
     
+    @IBAction func toSignUp(sender: UIButton) {
+        self.performSegueWithIdentifier("toSignUp", sender: self)
+    }
+    
+    
     @IBAction func loginAction(sender: AnyObject) {
         
         var username = self.usernameField.text
@@ -70,6 +75,8 @@ class CustomLogInViewController: UIViewController {
                     
                     var alert = UIAlertView(title: "Success", message: "Logged In", delegate: self, cancelButtonTitle: "OK")
                     alert.show()
+                    user?.save()
+                    self.performSegueWithIdentifier("loggedIn", sender: self)
                     
                 }
                 else {

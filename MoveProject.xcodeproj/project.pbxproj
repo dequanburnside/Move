@@ -7,31 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F7668B6D1B5FE15300485C65 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7668B6C1B5FE15300485C65 /* Parse.framework */; };
-		F7668B6F1B5FE19700485C65 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7668B6E1B5FE19700485C65 /* AudioToolbox.framework */; };
-		F7668B711B5FE19C00485C65 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7668B701B5FE19C00485C65 /* CFNetwork.framework */; };
-		F7668B731B5FE1A400485C65 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7668B721B5FE1A400485C65 /* CoreGraphics.framework */; };
-		F7668B751B5FE1AE00485C65 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7668B741B5FE1AE00485C65 /* CoreLocation.framework */; };
-		F7668B771B5FE22D00485C65 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F7668B761B5FE22D00485C65 /* libz.dylib */; };
-		F7668B791B5FE23900485C65 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7668B781B5FE23900485C65 /* MobileCoreServices.framework */; };
-		F7668B7B1B5FE24500485C65 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7668B7A1B5FE24500485C65 /* QuartzCore.framework */; };
-		F7668B7D1B5FE24F00485C65 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7668B7C1B5FE24F00485C65 /* Security.framework */; };
-		F7668B7F1B5FE25B00485C65 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7668B7E1B5FE25B00485C65 /* StoreKit.framework */; };
-		F7668B811B5FE26800485C65 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7668B801B5FE26800485C65 /* SystemConfiguration.framework */; };
-		F7668B831B5FEBCD00485C65 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7668B821B5FEBCD00485C65 /* Accounts.framework */; };
-		F7668B851B5FEBD200485C65 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7668B841B5FEBD200485C65 /* Social.framework */; };
-		F7668B871B5FEC4B00485C65 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F7668B861B5FEC4B00485C65 /* libsqlite3.dylib */; };
-		F7668B891B5FEDB100485C65 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7668B881B5FEDB100485C65 /* ParseUI.framework */; };
 		F7668B8B1B5FF7D000485C65 /* CustomLogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7668B8A1B5FF7D000485C65 /* CustomLogInViewController.swift */; };
 		F7668B8D1B5FF84100485C65 /* CustomSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7668B8C1B5FF84100485C65 /* CustomSignUpViewController.swift */; };
-		F7668B901B60359200485C65 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7668B8E1B60359200485C65 /* Bolts.framework */; };
-		F7668B911B60359200485C65 /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7668B8F1B60359200485C65 /* ParseCrashReporting.framework */; };
+		F7668B9D1B6191FA00485C65 /* MakeAMoveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7668B9C1B6191FA00485C65 /* MakeAMoveViewController.swift */; };
+		F7668BAE1B62BAEB00485C65 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7668BAB1B62BAEB00485C65 /* Bolts.framework */; };
+		F7668BAF1B62BAEB00485C65 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7668BAC1B62BAEB00485C65 /* Parse.framework */; };
+		F7668BB01B62BAEB00485C65 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7668BAD1B62BAEB00485C65 /* ParseUI.framework */; };
+		F7668BB31B62BB7D00485C65 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7668BB21B62BB7D00485C65 /* Social.framework */; };
+		F7668BB51B62BBC400485C65 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7668BB41B62BBC400485C65 /* Accounts.framework */; };
+		F7668BB71B62BBD000485C65 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F7668BB61B62BBD000485C65 /* libsqlite3.dylib */; };
+		F7668BB91B62BBD900485C65 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F7668BB81B62BBD900485C65 /* libz.dylib */; };
+		F7668BBB1B62BBE700485C65 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7668BBA1B62BBE700485C65 /* SystemConfiguration.framework */; };
+		F7668BBD1B62BBF000485C65 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7668BBC1B62BBF000485C65 /* StoreKit.framework */; };
+		F7668BBF1B62BBF800485C65 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7668BBE1B62BBF800485C65 /* Security.framework */; };
+		F7668BC11B62BC0100485C65 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7668BC01B62BC0100485C65 /* QuartzCore.framework */; };
+		F7668BC31B62BC0B00485C65 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7668BC21B62BC0B00485C65 /* MobileCoreServices.framework */; };
+		F7668BC51B62BC1600485C65 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7668BC41B62BC1600485C65 /* CoreLocation.framework */; };
+		F7668BC71B62BC2400485C65 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7668BC61B62BC2400485C65 /* CFNetwork.framework */; };
+		F7668BC91B62BC3300485C65 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7668BC81B62BC3300485C65 /* AudioToolbox.framework */; };
+		F7668BCB1B62BC4C00485C65 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7668BCA1B62BC4C00485C65 /* CoreGraphics.framework */; };
+		F7668BCF1B62CE3900485C65 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7668BCE1B62CE3900485C65 /* User.swift */; };
+		F7668BD11B62CE4D00485C65 /* Movement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7668BD01B62CE4D00485C65 /* Movement.swift */; };
+		F7668BD71B62D90A00485C65 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7668BD61B62D90A00485C65 /* Move.swift */; };
+		F7D2B99A1B65448300415D05 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D2B9991B65448300415D05 /* TimelineViewController.swift */; };
+		F7D2B99C1B6544AB00415D05 /* PlusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D2B99B1B6544AB00415D05 /* PlusViewController.swift */; };
+		F7D2B99F1B65C02000415D05 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D2B99E1B65C02000415D05 /* MeViewController.swift */; };
 		F7D629A41B5D8FFC007C3457 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D629A31B5D8FFC007C3457 /* AppDelegate.swift */; };
-		F7D629A61B5D8FFC007C3457 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D629A51B5D8FFC007C3457 /* ViewController.swift */; };
+		F7D629A61B5D8FFC007C3457 /* FirstScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D629A51B5D8FFC007C3457 /* FirstScreenViewController.swift */; };
 		F7D629A91B5D8FFC007C3457 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7D629A71B5D8FFC007C3457 /* Main.storyboard */; };
 		F7D629AB1B5D8FFC007C3457 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7D629AA1B5D8FFC007C3457 /* Images.xcassets */; };
 		F7D629AE1B5D8FFC007C3457 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7D629AC1B5D8FFC007C3457 /* LaunchScreen.xib */; };
-		F7D629BA1B5D8FFC007C3457 /* REALSHITTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D629B91B5D8FFC007C3457 /* REALSHITTests.swift */; };
+		F7D629BA1B5D8FFC007C3457 /* MoveProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7D629B91B5D8FFC007C3457 /* MoveProjectTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,35 +51,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F7668B6C1B5FE15300485C65 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = ../../MoveProject/Frameworks/Parse.framework; sourceTree = "<group>"; };
-		F7668B6E1B5FE19700485C65 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		F7668B701B5FE19C00485C65 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		F7668B721B5FE1A400485C65 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		F7668B741B5FE1AE00485C65 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		F7668B761B5FE22D00485C65 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		F7668B781B5FE23900485C65 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		F7668B7A1B5FE24500485C65 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		F7668B7C1B5FE24F00485C65 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		F7668B7E1B5FE25B00485C65 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
-		F7668B801B5FE26800485C65 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		F7668B821B5FEBCD00485C65 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
-		F7668B841B5FEBD200485C65 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
-		F7668B861B5FEC4B00485C65 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
-		F7668B881B5FEDB100485C65 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "../../../../Downloads/parse-library-1.7.5/ParseUI.framework"; sourceTree = "<group>"; };
 		F7668B8A1B5FF7D000485C65 /* CustomLogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLogInViewController.swift; sourceTree = "<group>"; };
 		F7668B8C1B5FF84100485C65 /* CustomSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSignUpViewController.swift; sourceTree = "<group>"; };
-		F7668B8E1B60359200485C65 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../../Downloads/parse-library-1.7.5/Bolts.framework"; sourceTree = "<group>"; };
-		F7668B8F1B60359200485C65 /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseCrashReporting.framework; path = "../../../../Downloads/parse-library-1.7.5/ParseCrashReporting.framework"; sourceTree = "<group>"; };
+		F7668B9C1B6191FA00485C65 /* MakeAMoveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeAMoveViewController.swift; sourceTree = "<group>"; };
+		F7668BAB1B62BAEB00485C65 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = MoveProject/Frameworks/Bolts.framework; sourceTree = "<group>"; };
+		F7668BAC1B62BAEB00485C65 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = MoveProject/Frameworks/Parse.framework; sourceTree = "<group>"; };
+		F7668BAD1B62BAEB00485C65 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = MoveProject/Frameworks/ParseUI.framework; sourceTree = "<group>"; };
+		F7668BB21B62BB7D00485C65 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		F7668BB41B62BBC400485C65 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		F7668BB61B62BBD000485C65 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		F7668BB81B62BBD900485C65 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		F7668BBA1B62BBE700485C65 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F7668BBC1B62BBF000485C65 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		F7668BBE1B62BBF800485C65 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F7668BC01B62BC0100485C65 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F7668BC21B62BC0B00485C65 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F7668BC41B62BC1600485C65 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F7668BC61B62BC2400485C65 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F7668BC81B62BC3300485C65 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F7668BCA1B62BC4C00485C65 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F7668BCE1B62CE3900485C65 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = ../User.swift; sourceTree = "<group>"; };
+		F7668BD01B62CE4D00485C65 /* Movement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Movement.swift; path = ../Movement.swift; sourceTree = "<group>"; };
+		F7668BD61B62D90A00485C65 /* Move.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = SOURCE_ROOT; };
+		F7D2B9991B65448300415D05 /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		F7D2B99B1B6544AB00415D05 /* PlusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlusViewController.swift; path = ../PlusViewController.swift; sourceTree = "<group>"; };
+		F7D2B99E1B65C02000415D05 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
 		F7D6299E1B5D8FFC007C3457 /* MoveProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoveProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D629A21B5D8FFC007C3457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7D629A31B5D8FFC007C3457 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F7D629A51B5D8FFC007C3457 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7D629A51B5D8FFC007C3457 /* FirstScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenViewController.swift; sourceTree = "<group>"; };
 		F7D629A81B5D8FFC007C3457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F7D629AA1B5D8FFC007C3457 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F7D629AD1B5D8FFC007C3457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F7D629B31B5D8FFC007C3457 /* MoveProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoveProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D629B81B5D8FFC007C3457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7D629B91B5D8FFC007C3457 /* REALSHITTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REALSHITTests.swift; sourceTree = "<group>"; };
+		F7D629B91B5D8FFC007C3457 /* MoveProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveProjectTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,23 +93,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7668B901B60359200485C65 /* Bolts.framework in Frameworks */,
-				F7668B911B60359200485C65 /* ParseCrashReporting.framework in Frameworks */,
-				F7668B891B5FEDB100485C65 /* ParseUI.framework in Frameworks */,
-				F7668B871B5FEC4B00485C65 /* libsqlite3.dylib in Frameworks */,
-				F7668B851B5FEBD200485C65 /* Social.framework in Frameworks */,
-				F7668B831B5FEBCD00485C65 /* Accounts.framework in Frameworks */,
-				F7668B811B5FE26800485C65 /* SystemConfiguration.framework in Frameworks */,
-				F7668B7F1B5FE25B00485C65 /* StoreKit.framework in Frameworks */,
-				F7668B7D1B5FE24F00485C65 /* Security.framework in Frameworks */,
-				F7668B7B1B5FE24500485C65 /* QuartzCore.framework in Frameworks */,
-				F7668B791B5FE23900485C65 /* MobileCoreServices.framework in Frameworks */,
-				F7668B771B5FE22D00485C65 /* libz.dylib in Frameworks */,
-				F7668B751B5FE1AE00485C65 /* CoreLocation.framework in Frameworks */,
-				F7668B731B5FE1A400485C65 /* CoreGraphics.framework in Frameworks */,
-				F7668B711B5FE19C00485C65 /* CFNetwork.framework in Frameworks */,
-				F7668B6F1B5FE19700485C65 /* AudioToolbox.framework in Frameworks */,
-				F7668B6D1B5FE15300485C65 /* Parse.framework in Frameworks */,
+				F7668BCB1B62BC4C00485C65 /* CoreGraphics.framework in Frameworks */,
+				F7668BC91B62BC3300485C65 /* AudioToolbox.framework in Frameworks */,
+				F7668BC71B62BC2400485C65 /* CFNetwork.framework in Frameworks */,
+				F7668BC51B62BC1600485C65 /* CoreLocation.framework in Frameworks */,
+				F7668BC31B62BC0B00485C65 /* MobileCoreServices.framework in Frameworks */,
+				F7668BC11B62BC0100485C65 /* QuartzCore.framework in Frameworks */,
+				F7668BBF1B62BBF800485C65 /* Security.framework in Frameworks */,
+				F7668BBD1B62BBF000485C65 /* StoreKit.framework in Frameworks */,
+				F7668BBB1B62BBE700485C65 /* SystemConfiguration.framework in Frameworks */,
+				F7668BB91B62BBD900485C65 /* libz.dylib in Frameworks */,
+				F7668BB71B62BBD000485C65 /* libsqlite3.dylib in Frameworks */,
+				F7668BB51B62BBC400485C65 /* Accounts.framework in Frameworks */,
+				F7668BB31B62BB7D00485C65 /* Social.framework in Frameworks */,
+				F7668BAF1B62BAEB00485C65 /* Parse.framework in Frameworks */,
+				F7668BB01B62BAEB00485C65 /* ParseUI.framework in Frameworks */,
+				F7668BAE1B62BAEB00485C65 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,29 +122,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F7668B6B1B5FE15300485C65 /* Frameworks */ = {
+		F7668BB11B62BB6100485C65 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F7668B8E1B60359200485C65 /* Bolts.framework */,
-				F7668B8F1B60359200485C65 /* ParseCrashReporting.framework */,
-				F7668B881B5FEDB100485C65 /* ParseUI.framework */,
-				F7668B861B5FEC4B00485C65 /* libsqlite3.dylib */,
-				F7668B841B5FEBD200485C65 /* Social.framework */,
-				F7668B821B5FEBCD00485C65 /* Accounts.framework */,
-				F7668B801B5FE26800485C65 /* SystemConfiguration.framework */,
-				F7668B7E1B5FE25B00485C65 /* StoreKit.framework */,
-				F7668B7C1B5FE24F00485C65 /* Security.framework */,
-				F7668B7A1B5FE24500485C65 /* QuartzCore.framework */,
-				F7668B781B5FE23900485C65 /* MobileCoreServices.framework */,
-				F7668B761B5FE22D00485C65 /* libz.dylib */,
-				F7668B741B5FE1AE00485C65 /* CoreLocation.framework */,
-				F7668B721B5FE1A400485C65 /* CoreGraphics.framework */,
-				F7668B701B5FE19C00485C65 /* CFNetwork.framework */,
-				F7668B6E1B5FE19700485C65 /* AudioToolbox.framework */,
-				F7668B6C1B5FE15300485C65 /* Parse.framework */,
+				F7668BCA1B62BC4C00485C65 /* CoreGraphics.framework */,
+				F7668BC81B62BC3300485C65 /* AudioToolbox.framework */,
+				F7668BC61B62BC2400485C65 /* CFNetwork.framework */,
+				F7668BC41B62BC1600485C65 /* CoreLocation.framework */,
+				F7668BC21B62BC0B00485C65 /* MobileCoreServices.framework */,
+				F7668BC01B62BC0100485C65 /* QuartzCore.framework */,
+				F7668BBE1B62BBF800485C65 /* Security.framework */,
+				F7668BBC1B62BBF000485C65 /* StoreKit.framework */,
+				F7668BBA1B62BBE700485C65 /* SystemConfiguration.framework */,
+				F7668BB81B62BBD900485C65 /* libz.dylib */,
+				F7668BB61B62BBD000485C65 /* libsqlite3.dylib */,
+				F7668BB41B62BBC400485C65 /* Accounts.framework */,
+				F7668BB21B62BB7D00485C65 /* Social.framework */,
+				F7668BAB1B62BAEB00485C65 /* Bolts.framework */,
+				F7668BAC1B62BAEB00485C65 /* Parse.framework */,
+				F7668BAD1B62BAEB00485C65 /* ParseUI.framework */,
 			);
 			name = Frameworks;
-			path = REALSHIT/Frameworks;
+			sourceTree = "<group>";
+		};
+		F7D2B99D1B6544BE00415D05 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F7D2B99E1B65C02000415D05 /* MeViewController.swift */,
+				F7668B9C1B6191FA00485C65 /* MakeAMoveViewController.swift */,
+				F7668B8A1B5FF7D000485C65 /* CustomLogInViewController.swift */,
+				F7D2B9991B65448300415D05 /* TimelineViewController.swift */,
+				F7D2B99B1B6544AB00415D05 /* PlusViewController.swift */,
+				F7D629A51B5D8FFC007C3457 /* FirstScreenViewController.swift */,
+				F7668B8C1B5FF84100485C65 /* CustomSignUpViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 		F7D629951B5D8FFC007C3457 = {
@@ -142,7 +165,7 @@
 				F7D629A01B5D8FFC007C3457 /* MoveProject */,
 				F7D629B61B5D8FFC007C3457 /* MoveProjectTests */,
 				F7D6299F1B5D8FFC007C3457 /* Products */,
-				F7668B6B1B5FE15300485C65 /* Frameworks */,
+				F7668BB11B62BB6100485C65 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -158,10 +181,11 @@
 		F7D629A01B5D8FFC007C3457 /* MoveProject */ = {
 			isa = PBXGroup;
 			children = (
-				F7668B8C1B5FF84100485C65 /* CustomSignUpViewController.swift */,
-				F7668B8A1B5FF7D000485C65 /* CustomLogInViewController.swift */,
+				F7D2B99D1B6544BE00415D05 /* ViewControllers */,
+				F7668BD61B62D90A00485C65 /* Move.swift */,
+				F7668BD01B62CE4D00485C65 /* Movement.swift */,
+				F7668BCE1B62CE3900485C65 /* User.swift */,
 				F7D629A31B5D8FFC007C3457 /* AppDelegate.swift */,
-				F7D629A51B5D8FFC007C3457 /* ViewController.swift */,
 				F7D629A71B5D8FFC007C3457 /* Main.storyboard */,
 				F7D629AA1B5D8FFC007C3457 /* Images.xcassets */,
 				F7D629AC1B5D8FFC007C3457 /* LaunchScreen.xib */,
@@ -181,7 +205,7 @@
 		F7D629B61B5D8FFC007C3457 /* MoveProjectTests */ = {
 			isa = PBXGroup;
 			children = (
-				F7D629B91B5D8FFC007C3457 /* REALSHITTests.swift */,
+				F7D629B91B5D8FFC007C3457 /* MoveProjectTests.swift */,
 				F7D629B71B5D8FFC007C3457 /* Supporting Files */,
 			);
 			path = MoveProjectTests;
@@ -295,8 +319,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7668BD71B62D90A00485C65 /* Move.swift in Sources */,
+				F7D2B99F1B65C02000415D05 /* MeViewController.swift in Sources */,
 				F7668B8B1B5FF7D000485C65 /* CustomLogInViewController.swift in Sources */,
-				F7D629A61B5D8FFC007C3457 /* ViewController.swift in Sources */,
+				F7D629A61B5D8FFC007C3457 /* FirstScreenViewController.swift in Sources */,
+				F7668BCF1B62CE3900485C65 /* User.swift in Sources */,
+				F7668BD11B62CE4D00485C65 /* Movement.swift in Sources */,
+				F7D2B99A1B65448300415D05 /* TimelineViewController.swift in Sources */,
+				F7D2B99C1B6544AB00415D05 /* PlusViewController.swift in Sources */,
+				F7668B9D1B6191FA00485C65 /* MakeAMoveViewController.swift in Sources */,
 				F7668B8D1B5FF84100485C65 /* CustomSignUpViewController.swift in Sources */,
 				F7D629A41B5D8FFC007C3457 /* AppDelegate.swift in Sources */,
 			);
@@ -306,7 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7D629BA1B5D8FFC007C3457 /* REALSHITTests.swift in Sources */,
+				F7D629BA1B5D8FFC007C3457 /* MoveProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +462,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/MoveProject/Frameworks",
 					"/Users/dequanburnside/Downloads/parse-library-1.7.5",
+					"/Users/dequanburnside/Development/parse-library-1.7.5",
 				);
 				INFOPLIST_FILE = MoveProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -446,6 +478,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/MoveProject/Frameworks",
 					"/Users/dequanburnside/Downloads/parse-library-1.7.5",
+					"/Users/dequanburnside/Development/parse-library-1.7.5",
 				);
 				INFOPLIST_FILE = MoveProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
