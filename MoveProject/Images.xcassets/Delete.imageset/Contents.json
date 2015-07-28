@@ -2,18 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "scale" : "1x",
-      "filename" : "Delete Sign-50.png"
+      "scale" : "1x"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "Delete Sign-50-1.png"
+      "filename" : "Delete Sign-40.png"
     },
     {
       "idiom" : "universal",
       "scale" : "3x",
-      "filename" : "Delete Sign-50-2.png"
+      "filename" : "Delete Sign-60.png"
     }
   ],
   "info" : {

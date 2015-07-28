@@ -7,33 +7,30 @@
 //
 
 import Foundation
+import Parse
 
 
-class Move {
+class Move : PFObject {
     
     var name : NSString?
-    var startDate : NSDate?
-    var startTime : NSDate?
-    var endDate : NSDate?
-    var endTime : NSDate?
+    var host : NSString?
+    var start : NSDate?
+    var end : NSDate?
     var summary : NSString?
-    var addressLine1 : NSString?
-    var addressLine2 : NSString?
+    var address : NSString?
     var price : NSString?
     var type : NSString?
     var contactName : NSString?
     var contactInfo : NSString?
     var ticketLink : NSString?
+    var rsvpList : [PFUser]?
     
     
     init(name : NSString,
-        startDate : NSDate,
-        startTime : NSDate,
-        endDate : NSDate,
-        endTime : NSDate,
+        start : NSDate,
+        end : NSDate,
         summary : NSString,
-        addressLine1 : NSString,
-        addressLine2 : NSString,
+        address : NSString,
         price : NSString,
         type : NSString,
         contactName : NSString,
@@ -42,20 +39,18 @@ class Move {
         )
         
         {
-            
+            super.init()
             self.name = name
-            self.startDate = startDate
-            self.startTime = startTime
-            self.endDate = endDate
-            self.endTime = endTime
+            self.start = start
+            self.end = end
             self.summary = summary
-            self.addressLine1 = addressLine1
-            self.addressLine2 = addressLine2
+            self.address = address
             self.price = price
             self.type = type
             self.contactName = contactName
             self.contactInfo = contactInfo
             self.ticketLink = ticketLink
+            self.rsvpList = []
             
         
         

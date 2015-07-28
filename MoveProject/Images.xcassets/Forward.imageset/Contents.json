@@ -2,18 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "scale" : "1x",
-      "filename" : "Right-50.png"
+      "scale" : "1x"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "Right-50-1.png"
+      "filename" : "Right-40.png"
     },
     {
       "idiom" : "universal",
       "scale" : "3x",
-      "filename" : "Right-50-2.png"
+      "filename" : "Right-60.png"
     }
   ],
   "info" : {

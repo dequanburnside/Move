@@ -2,18 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "scale" : "1x",
-      "filename" : "Forward-50.png"
+      "scale" : "1x"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "Forward-50-1.png"
+      "filename" : "Forward-40.png"
     },
     {
       "idiom" : "universal",
       "scale" : "3x",
-      "filename" : "Forward-50-2.png"
+      "filename" : "Forward-60.png"
     }
   ],
   "info" : {

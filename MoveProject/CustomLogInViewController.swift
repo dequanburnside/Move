@@ -73,8 +73,8 @@ class CustomLogInViewController: UIViewController {
                 
                 if ((user) != nil) {
                     
-                    var alert = UIAlertView(title: "Success", message: "Logged In", delegate: self, cancelButtonTitle: "OK")
-                    alert.show()
+//                    var alert = UIAlertView(title: "Success", message: "Logged In", delegate: self, cancelButtonTitle: "OK")
+//                    alert.show()
                     user?.save()
                     self.performSegueWithIdentifier("loggedIn", sender: self)
                     

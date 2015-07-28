@@ -2,18 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "scale" : "1x",
-      "filename" : "Question Mark Filled-50.png"
+      "scale" : "1x"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "Question Mark Filled-50-1.png"
+      "filename" : "Question Mark Filled-40.png"
     },
     {
       "idiom" : "universal",
       "scale" : "3x",
-      "filename" : "Question Mark Filled-50-2.png"
+      "filename" : "Question Mark Filled-60.png"
     }
   ],
   "info" : {

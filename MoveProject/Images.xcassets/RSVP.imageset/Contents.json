@@ -2,18 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "scale" : "1x",
-      "filename" : "Checkmark-50.png"
+      "scale" : "1x"
     },
     {
       "idiom" : "universal",
       "scale" : "2x",
-      "filename" : "Checkmark-50-1.png"
+      "filename" : "Checkmark-40.png"
     },
     {
       "idiom" : "universal",
       "scale" : "3x",
-      "filename" : "Checkmark-50-2.png"
+      "filename" : "Checkmark-60.png"
     }
   ],
   "info" : {
