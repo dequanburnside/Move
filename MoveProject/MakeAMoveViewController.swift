@@ -10,9 +10,14 @@ import UIKit
 import Parse
 
 class MakeAMoveViewController: UITableViewController {
+    
+    
     @IBAction func doneButton(sender: UIButton) {
                 let moveName = self.moveName.text
+                //let moveStart = self.moveStart.
     }
+    
+    
     
     @IBOutlet weak var moveName: UITextField!
     
@@ -88,7 +93,7 @@ class MakeAMoveViewController: UITableViewController {
     }
         
     func typeSegmentToString() -> Void {
-        switch moveTypeSegment {
+        switch moveTypeSegment.selectedSegmentIndex {
         case 0 :
             currentType = "Public"
             println(currentType)
@@ -103,6 +108,16 @@ class MakeAMoveViewController: UITableViewController {
         }
         
     }
+        
+//        func getDate(dateAndTime: UIDatePicker) -> NSDate {
+//            
+//            
+//            
+//        }
+//        
+//        func getTime(dateAndTime: UIDatePicker) -> NSDate {
+//            
+//        }
     
 
     /*
